@@ -1,0 +1,194 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+    background: linear-gradient(45deg, rgba(255,169,184,1), rgba(245,169,184,0.5));
+    background-size: cover;
+    color: black;
+    font-family: NerdFontLilex;
+}
+
+.p {
+    color:rgb(72, 17, 25);   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.panel-site { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1600px;
+}
+
+.panel-main {
+    margin-top: 4px;
+    display: flex;
+    height: 2000px;
+}
+
+.panel-top {
+    margin-top:200px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 2px;
+    border-radius: 16px;
+    background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
+    height: 60px;
+    width: 1276px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.greet {
+    width: 300px;
+    height: 52px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 2px;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 2px;
+    background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
+}
+
+.panel-left {
+    background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
+    display: inline-block;
+    width: 256px;
+    height: 660px;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: aquamarine;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 4px;
+}
+
+.author-name {
+    color:rgb(72, 17, 25);
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:aquamarine;
+    background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.author-image-border {
+    background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
+    display: block;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:aquamarine;
+}
+
+.author-image {
+    display: block;
+    align-self: center;
+    border-radius: 16px;
+    width: 254px;
+    height: 252px;
+}
+
+.author-text {
+    display: block;
+    background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:aquamarine;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.intro-text {
+    font-size: 14px;
+    text-wrap: wrap;
+    width: inherit;
+    text-align:left;
+}
+
+.panel-center {
+    background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
+    display: block;
+    text-align: center;
+    width: 740px;
+    height: 660px;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: aquamarine;
+    margin-right: 4px;
+}
+
+.panel-right {
+    background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
+    display: inline-block;
+    width: 256px;
+    height: 660px;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: aquamarine;
+}
+
+.status-wrapper {
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+    height: 40px;
+    padding-left: 20px;
+    margin: 8px;
+    max-width: 100%;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: 2px;
+    border-color: aquamarine;
+    background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
+}
+
+.status {
+    display: inline;
+    color:rgb(72, 17, 25);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.center-wrapper {
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+    height:664px;
+}
+.scrollbar {
+    display: inline-block;
+    overflow-block: hidden;
+    overflow-wrap: normal;
+    overflow-y: scroll;
+    overflow: scroll;
+    scrollbar-color: aquamarine;
+    scrollbar-width: 20px;
+    max-height: 300px;
+}
