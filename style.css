@@ -82,7 +82,7 @@ body {
     color:rgb(72, 17, 25);
     font-weight: 600;
     margin-top: 4px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     border-radius: 16px;
     border-style: solid;
     border-width: 2px;
@@ -98,7 +98,7 @@ body {
     display: block;
     align-items: center;
     margin-top: 4px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     border-radius: 16px;
     border-style: solid;
     border-width: 2px;
@@ -122,14 +122,39 @@ body {
     border-color:aquamarine;
     padding-left: 4px;
     padding-right: 4px;
+    margin-top: 0px;
+    height: 45.75%;
+    overflow: hidden;
 }
+
+
 .intro-text {
+    display: block;
+    height: 300px;
     font-size: 14px;
     text-wrap: wrap;
     width: inherit;
     text-align:left;
+    margin-top: 3px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(227, 151, 187, 1) rgba(140, 202, 211, 1);
 }
 
+.intro-text p {
+    color: rgb(72, 17, 25);
+    margin: 2px 1px;
+    padding: 2px;
+}
+
+.intro-text ul {
+    color: rgb(72, 17, 25);
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 20px;
+}
 .panel-center {
     background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
     display: block;
@@ -156,12 +181,10 @@ body {
 
 .status-wrapper {
     display: flex;
-    text-align: left;
-    overflow: hidden;
-    height: 40px;
+    height: 36px;
+    width: auto;
     padding-left: 20px;
     margin: 8px;
-    max-width: 100%;
     border-style: solid;
     border-radius: 16px;
     border-width: 2px;
@@ -169,11 +192,80 @@ body {
     background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
 }
 
+.status-wrapper p{
+    padding-top: 8px;
+    margin: 0;
+}
+
 .status {
-    display: inline;
+    display: inline-block;
     color:rgb(72, 17, 25);
     font-size: 14px;
     font-weight: 600;
+    text-wrap: nowrap;
+    margin-right: 4px;
+}
+
+.status-scroll {
+    display: inline-block;
+    color: rgb(72, 17, 25);
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: clip;
+    text-align: center;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: aquamarine;
+    margin-left: 14px;
+    background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
+    width: 220px;
+    height: 300px;
+}
+
+.menu-button {
+    display: inline-block;
+    width: 180px;
+    height: 22px;
+    text-align: center;
+    border-radius: 12px;
+    border-color: aquamarine;
+    background-color: rgba(227, 151, 187, 0.6);
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.menu-wrapper p {
+    color: rgb(72, 17, 25);
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    padding: 2px 0px;
+    border-radius: 16px;
+    border-color: aquamarine;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#chattable {
+    height: 250px;
+    width: 240px;
+    border-radius: 16px;
+    border-color: aquamarine;
+    margin-left: 6px;
+}
+
+.chatbox-wrapper {
+    display: block;
+    margin-top: 20px;
 }
 
 .center-wrapper {
