@@ -167,7 +167,8 @@ body {
 }
 .panel-center {
     background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
-    display: block;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     width: 740px;
     height: 680px;
@@ -181,7 +182,7 @@ body {
 .panel-right {
     background-image: linear-gradient(45deg, rgba(37, 51, 245, 0.45), rgba(46, 255, 252, 0.15));
     display: inline-block;
-    width: 280px;
+    width: 316px;
     height: 680px;
     border-style: solid;
     border-radius: 16px;
@@ -228,21 +229,25 @@ body {
 .menu-wrapper {
     display: flex;
     flex-direction: column;
+    align-self: right;
     align-items: center;
     text-align: center;
     border-radius: 16px;
     border-style: solid;
     border-color: aquamarine;
-    margin-left: 8px;
+    margin-left: 4px;
     margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
     background-image: linear-gradient(315deg, rgba(140, 202, 211, 0.9), rgba(227, 151, 187, 0.9));
-    width: 260px;
-    height: 300px;
+    width: 120px;
+    height: auto;
 }
 
 .menu-button {
     display: inline-block;
-    width: 200px;
+    width: 118px;
     height: 26px;
     text-align: center;
     border-radius: 12px;
@@ -267,8 +272,8 @@ body {
 }
 
 #chattable {
-    height: 300px;
-    width: 260px;
+    height: 600px;
+    width: 300px;
     border-radius: 16px;
     border-color: aquamarine;
     margin-left: 8px;
@@ -276,24 +281,22 @@ body {
 }
 
 .chatbox-wrapper {
-    display: block;
-    width: 280px;
+    display: inline;
+    width: 300px;
     margin-top: 4px;
 }
 
 .center-wrapper {
-    display: inline-block;
+    display: flex;
     text-align: center;
-    width: 600px;
-    height:664px;
 }
 .scrollbar {
-    display: inline-block;
     overflow-block: hidden;
     overflow-wrap: normal;
     overflow-y: scroll;
     overflow: scroll;
     scrollbar-color: aquamarine;
     scrollbar-width: 20px;
-    max-height: 300px;
+    max-height: 600px;
+    max-width: 560px;
 }
